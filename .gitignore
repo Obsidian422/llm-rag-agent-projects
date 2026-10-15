@@ -1,0 +1,27 @@
+# ===== 简历项目总结（不入库，仅本地保留）=====
+项目总结.md
+
+# ===== Cloud Studio 示例文件（不推送）=====
+example/
+.vscode/
+
+# ===== 敏感配置（含真实 API Key，不推送）=====
+RagHop/config.py
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 虚拟环境（本地依赖，约 500MB，绝不入库）=====
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# ===== 运行产物 / 向量索引（首次运行自动重建）=====
+RagHop/indexes/
+.gradio/
+**/.gradio/
+
+# ===== 系统文件 =====
+.DS_Store
